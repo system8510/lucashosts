@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "ReleaseNotes": "",
   "UrlUpdate": "system8510.github.io/lucashosts/UrlUpdate",
   "Sms": "",
@@ -26,7 +26,7 @@
   ],
   "Servers": [
     {
-      "Name": "LucasHosts",
+      "Name": "LucasHosts 01",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "lucasflix.cf",
@@ -49,8 +49,8 @@
     }
   ],
   "Networks": [
-  	{
-      "Name": "VIVO Principal",
+    {
+      "Name": "VIVO Proxy 01",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -60,37 +60,67 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO PROXY 01",
+      "Name": "VIVO Proxy 02",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "ProxyIP": "104.24.25.34",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO TLS 02",
+      "Name": "VIVO Proxy 03",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "172.64.194.2",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO TLS 01",
+      "FLAG": "vivo",
+      "Payload": "GET wss://money-staging.infinitepay.io/ HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "money-staging.infinitepay.io",
+      "TlsIP": "172.64.131.2",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM PROXY 01",
+      "Name": "VIVO TLS 02",
+      "FLAG": "vivo",
+      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[lf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "104.24.10.16",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 01",
       "FLAG": "tim",
-      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": " GET wss://static.r4you.co  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
     },
     {
       "Name": "TIM TLS 02",
+      "FLAG": "tim",
+      "Payload": "GET wss://blog.alura.com.br  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "blog.alura.com.br",
+      "TlsIP": "172.67.188.168",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM TLS 03",
       "FLAG": "tim",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -100,7 +130,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 03",
+      "Name": "TIM TLS 04",
       "FLAG": "tim",
       "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "m.timbancavirtual.com.br",
@@ -110,31 +140,11 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM TLS 04",
-      "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "TIM TLS 05",
-      "FLAG": "tim",
-      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.16.19.94",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Tlsws"
-    },
-    {
       "Name": "CLARO TLS 01",
       "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://4.icanhazip.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "4.icanhazip.com",
+      "TlsIP": "4.icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -142,48 +152,18 @@
     {
       "Name": "CLARO TLS 02",
       "FLAG": "claro",
-      "Payload": "GET ws://parceirosclaro.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "parceirosclaro.com.br",
-      "TlsIP": "parceirosclaro.com.br",
+      "Payload": "GET ws://communitystaging.kaltura.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "communitystaging.kaltura.com",
+      "TlsIP": "communitystaging.kaltura.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 03",
+      "Name": "CLARO SSL 01",
       "FLAG": "claro",
       "Payload": "",
       "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 04",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.waze.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 05",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "web.whatsapp.com",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "",
-      "Info": "Ssl"
-    },
-    {
-      "Name": "CLARO SSL 06",
-      "FLAG": "claro",
-      "Payload": "",
-      "SNI": "m.twitter.com",
       "TlsIP": "",
       "ProxyIP": "",
       "ProxyPort": "",
@@ -195,16 +175,16 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
+      "ProxyIP": "172.64.194.2",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
     {
-      "Name": "OI TLS 02",
+      "Name": "OI TLS 01",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
