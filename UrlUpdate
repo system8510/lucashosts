@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.2",
+  "Version": "1.0.3",
   "ReleaseNotes": "",
   "UrlUpdate": "system8510.github.io/lucashosts/UrlUpdate",
   "Sms": "",
@@ -8,6 +8,12 @@
   "UrlTermos": "",
   "CheckUser": "true",
   "Udp": [
+    {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
     {
       "Porta": "7300"
     },
@@ -22,26 +28,21 @@
     },
     {
       "Porta": "7700"
+    },
+    {
+      "Porta": "7800"
+    },
+    {
+      "Porta": "7900"
     }
   ],
   "Servers": [
     {
-      "Name": "LucasHosts 01",
+      "Name": "LucasHosts",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "lucasflix.cf",
-      "CheckUser": "http://lucasflix.cf:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "LucasHosts 02",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "400.lucasflix.cf",
-      "CheckUser": "http://400.lucasflix.cf:8989/checkUser",
+      "ServerIP": "ssh.lucashosts.cf",
+      "CheckUser": "http://ssh.lucashosts.cf:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -132,9 +133,9 @@
     {
       "Name": "TIM TLS 04",
       "FLAG": "tim",
-      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "m.timbancavirtual.com.br",
-      "TlsIP": "m.timbancavirtual.com.br",
+      "Payload": "GET wss://www.alura.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.alura.com.br",
+      "TlsIP": "www.alura.com.br",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -160,14 +161,14 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 01",
+      "Name": "CLARO TLS 03",
       "FLAG": "claro",
-      "Payload": "",
-      "SNI": "dns.web.whatsapp.com",
-      "TlsIP": "",
+      "Payload": "GET ws://go.kaltura.com HTTP/1.1\nHost: [app_host]\nUpgrade: WebSocket\n\n",
+      "SNI": "go.kaltura.com",
+      "TlsIP": "go.kaltura.com",
       "ProxyIP": "",
       "ProxyPort": "",
-      "Info": "Ssl"
+      "Info": "Tlsws"
     },
     {
       "Name": "OI PROXY 01",
