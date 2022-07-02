@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ReleaseNotes": "",
   "UrlUpdate": "system8510.github.io/lucashosts/UrlUpdate",
   "Sms": "",
@@ -7,6 +7,7 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
+  "FormatCheck": "dd/mm/yyyy",
   "Udp": [
     {
       "Porta": "7100"
@@ -189,6 +190,6 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
   ]
 }
