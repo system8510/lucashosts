@@ -7,7 +7,14 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
+  "FormatCheck": "dd/mm/yyyy",
   "Udp": [
+    {
+      "Porta": "7100"
+    },
+    {
+      "Porta": "7200"
+    },
     {
       "Porta": "7300"
     },
@@ -22,6 +29,12 @@
     },
     {
       "Porta": "7700"
+    },
+    {
+      "Porta": "7800"
+    },
+    {
+      "Porta": "7900"
     }
   ],
   "Servers": [
@@ -31,17 +44,6 @@
       "FLAG": "br.png",
       "ServerIP": "ssh.lucashosts.cf",
       "CheckUser": "http://ssh.lucashosts.cf:5454/checkUser",
-      "ServerPort": "22",
-      "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
-    },
-    {
-      "Name": "LucasHosts OFF",
-      "TYPE": "premium",
-      "FLAG": "br.png",
-      "ServerIP": "400.lucasflix.cf",
-      "CheckUser": "http://400.lucasflix.cf:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -188,6 +190,6 @@
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    }
+    },
   ]
 }
