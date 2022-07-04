@@ -3,14 +3,14 @@
   "data": [
     {
       "user_id": 27, 
-      "value": "<font color=\"#3355D1\">CLOUD HAUNT</font>", 
+      "value": "<font color=\"#FFFFFF\">CLOUD HAUNT</font>", 
       "id": 37, 
       "name": "app_name"
     }, 
     {
       "id": 2163, 
       "user_id": 27, 
-      "value": "https://i.ibb.co/wJWmbVD/024e4c04e38a58a9d793e7c79b57f11c.jpg", 
+      "value": "https://i.ibb.co/RT4FbYP/stories.jpg", 
       "name": "app_background_image"
     },
     {
@@ -33,19 +33,19 @@
     }, 
     {
       "user_id": 27, 
-      "value": "#3355D1", 
+      "value": "#010637", 
       "id": 41, 
       "name": "button_color"
     }, 
     {
       "user_id": 27, 
-      "value": "#3355D1", 
+      "value": "#645E67", 
       "id": 42, 
       "name": "icon_color"
     }, 
     {
       "user_id": 27, 
-      "value": "#3355D1", 
+      "value": "#333333", 
       "id": 556, 
       "name": "border_color"
     }, 
@@ -63,7 +63,7 @@
     }, 
     {
       "user_id": 27, 
-      "value": "", 
+      "value": "https://t.me//satancloud", 
       "id": 2224, 
       "name": "app_contact_link"
     },
@@ -142,7 +142,7 @@
     }, 
     {
       "user_id": 27, 
-      "value": "SEJAM BEM VINDO(A)S AO CLOUD - HAUNT!!", 
+      "value": "SEJAM BEM VINDO(A)S AO DEV4TUNNEL!!", 
       "id": 5141, 
       "name": "app_message_text"
     }, 
@@ -154,7 +154,7 @@
     }, 
     {
       "user_id": 27, 
-      "value": "https://i.ibb.co/FsJD5bz/20220628-194452.png", 
+      "value": "27_app_dialog_image_success_BF629882C4376A8477E9.png", 
       "id": 5143, 
       "name": "app_dialog_image_success"
     }, 
@@ -166,7 +166,7 @@
     }, 
     {
       "user_id": 27, 
-      "value": "https://i.ibb.co/FsJD5bz/20220628-194452.png", 
+      "value": "27_app_dialog_image_validate_AE1AA0FA0F34767B4CD5.png", 
       "id": 5145, 
       "name": "app_dialog_image_validate"
     }, 
