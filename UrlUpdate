@@ -1,5 +1,5 @@
 {
-  "Version": "1.1.3",
+  "Version": "1.1.4",
   "ReleaseNotes": "",
   "UrlUpdate": "https://system8510.github.io/lucashosts/UrlUpdate",
   "Sms": "",
@@ -79,7 +79,7 @@
       "TlsIP": "104.21.11.51",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws
+      "Info": "Tlsws"
     },
     {
       "Name": "VIVO TLS 02",
