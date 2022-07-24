@@ -23,36 +23,7 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
-  "FormatCheck": "dd/mm/yyyy",
-  "Udp": [
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
-    },
-    {
-      "Porta": "7295"
-    },
-    {
-      "Porta": "7296"
-    },
-    {
-      "Porta": "7200"
-    },
-    {
-      "Porta": "7297"
-    },
-    {
-      "Porta": "7298"
-    },
-    {
-      "Porta": "7299"
-    },
-    {
-      "Porta": "7300"
-    }
-  ],
+  "UdpPort": "7400;7500;7295;7296;7200;7297;7298;7299;7300"
   "Servers": [
     {
       "Name": "LucasHosts",
