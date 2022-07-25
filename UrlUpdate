@@ -23,7 +23,7 @@
   "UrlContato": "",
   "UrlTermos": "",
   "CheckUser": "true",
-  "UdpPort": "7400;7500;7295;7296;7200;7297;7298;7299;7300"
+  "UdpPort": "7400;7500;7295;7296;7200;7297;7298;7299;7300",
   "Servers": [
     {
       "Name": "LucasHosts",
