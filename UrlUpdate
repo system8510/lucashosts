@@ -1,11 +1,11 @@
 {
-  "Version": "1.1.15",
+  "Version": "1.1.17",
   "ReleaseNotes": "Nova Atualização Disponível \n
   \n
   MANTENHA O APLICATIVO \n
   SEMPRE ATUALIZADO \n
   •••••••••••••••••••••••••••••••••••••••••••••••••\n
-  Versão: 1.1.15\n
+  Versão: 1.1.17\n
   •••••••••••••••••••••••••••••••••••••••••••••••••\n
   \n
   Funcionando todas operadoras\n
@@ -29,8 +29,8 @@
       "Name": "LucasHosts",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "ssh.receber.tk",
-      "CheckUser": "http://ssh.receber.tk:5454/checkUser",
+      "ServerIP": "ssh.lucashosts.shop",
+      "CheckUser": "http://ssh.lucashosts.shop:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
