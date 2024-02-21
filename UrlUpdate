@@ -44,7 +44,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.7.41",
+      "ProxyIP": "104.18.37.248",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -54,7 +54,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "104.18.6.41",
+      "ProxyIP": "104.18.37.248",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
@@ -63,7 +63,7 @@
       "FLAG": "vivo",
       "Payload": "CONNECT-A wss://vigia.vivo.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
-      "TlsIP": "104.16.53.111",
+      "TlsIP": "104.18.37.248",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
@@ -74,7 +74,7 @@
       "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
-      "ProxyIP": "162.159.135.63",
+      "ProxyIP": "104.18.37.248",
       "ProxyPort": "80",
       "Info": "Proxy"
     },
